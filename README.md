@@ -1,6 +1,6 @@
 # AgentsVille Trip Planner
 
-A production-shaped refactor of the AgentsVille Trip Planner course notebook into
+A production-shaped refactor of the Trip Planner Agent course notebook into
 an installable Python package. It builds a personalized, day-by-day travel
 itinerary using an LLM and demonstrates:
 
@@ -12,7 +12,7 @@ itinerary using an LLM and demonstrates:
 ## Project layout
 
 ```
-src/agentsville_planner/
+src/trip_planner_agent/
 ├── config.py        # env + OpenAI client + model enum
 ├── models.py        # Pydantic data models (VacationInfo, TravelPlan, ...)
 ├── data.py          # default vacation input + loader
@@ -50,7 +50,7 @@ uv run python -m agentsville_planner.main
 ## Use as a library
 
 ```python
-from agentsville_planner import get_client, load_vacation_info, plan_trip
+from agents_planner import get_client, load_vacation_info, plan_trip
 
 client = get_client()
 vacation_info = load_vacation_info()          # or pass your own dict
