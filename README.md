@@ -29,7 +29,7 @@ docs/                # reference PDFs
 ```
 
 Note: `project_lib.py` is the course-provided "SDK" (the mocked weather/activity
-APIs, the `ChatAgent` base class, and the AgentsVille data). It is vendored
+APIs, the `ChatAgent` base class, and the Voyagia data). It is vendored
 unchanged so the mocked APIs remain the single source of truth.
 
 ## Setup
@@ -68,4 +68,4 @@ uv run pytest            # offline tests — no API key needed
 
 The tests exercise the pure logic (models, schedule retrieval, tools, and the
 non-LLM evals) against the mocked APIs, so they run without network access.
-Mock data covers **TripPlanner Agent, 2025-06-10 → 2025-06-15**.
+Mock data covers **Voyagia, 2025-06-10 → 2025-06-15**.
