@@ -1,6 +1,6 @@
 """Environment configuration and OpenAI client construction.
 
-Ported from notebook cells 4 and 5. Nothing here reaches out to the network at
+Nothing here reaches out to the network at
 import time; the client is built lazily via :func:`get_client`.
 """
 
