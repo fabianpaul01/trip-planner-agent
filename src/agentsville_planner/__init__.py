@@ -1,6 +1,6 @@
 """ Trip Planner — an LLM travel-planning agent.
 
-A production-shaped refactor of the course notebook: role-based prompting,
+Provides: role-based prompting,
 chain-of-thought planning, ReAct tool use, and evaluation feedback loops.
 """
 
