@@ -1,8 +1,8 @@
-# AgentsVille Trip Planner
+# Trip Planner Agent
 
-A production-shaped refactor of the Trip Planner Agent course notebook into
-an installable Python package. It builds a personalized, day-by-day travel
-itinerary using an LLM and demonstrates:
+An AI-powered travel planning application that generates personalized, 
+day-by-day itineraries using an LLM. The system creates tailored travel 
+experiences based on user preferences and demonstrates:
 
 - **Role-based prompting** — a specialized itinerary-planning agent
 - **Chain-of-thought reasoning** — step-by-step day-by-day planning
@@ -42,15 +42,15 @@ cp .env.example .env    # then add your OPENAI_API_KEY
 ## Run
 
 ```bash
-uv run agentsville-plan          # generate + revise an itinerary and print it
+uv run trip-planner-agent          # generate + revise an itinerary and print it
 # or
-uv run python -m agentsville_planner.main
+uv run python -m trip_planner_agent.main
 ```
 
 ## Use as a library
 
 ```python
-from agents_planner import get_client, load_vacation_info, plan_trip
+from trip_planner_agent import get_client, load_vacation_info, plan_trip
 
 client = get_client()
 vacation_info = load_vacation_info()          # or pass your own dict
@@ -68,4 +68,4 @@ uv run pytest            # offline tests — no API key needed
 
 The tests exercise the pure logic (models, schedule retrieval, tools, and the
 non-LLM evals) against the mocked APIs, so they run without network access.
-Mock data covers **AgentsVille, 2025-06-10 → 2025-06-15**.
+Mock data covers **TripPlanner Agent, 2025-06-10 → 2025-06-15**.
