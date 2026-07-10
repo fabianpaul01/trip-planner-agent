@@ -4,7 +4,9 @@ At a high level, this file is an evaluation framework for a travel planner.
  Its responsibility is not to generate a travel plan, but to verify whether a 
  generated travel plan satisfies a collection of independent rules.
 
-The core idea is to decouple each validation rule from the evaluation engine. Instead of writing one giant function that checks everything (dates, budget, interests, weather, etc.), each rule is implemented as an independent evaluator. The evaluation engine simply executes all of them and aggregates the results.
+The core idea is to decouple each validation rule from the evaluation engine. 
+Instead of writing one giant function that checks everything (dates, budget, interests, weather, etc.), 
+each rule is implemented as an independent evaluator. The evaluation engine simply executes all of them and aggregates the results.
 
 Pure evals are module-level functions with the signature
 ``(vacation_info, final_output) -> None`` that raise :class:`AgentError` on
