@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Fabian Paul. All rights reserved.
+
 """The itinerary agents.
 
 This module provides AI agents that create structured day-by-day travel plans

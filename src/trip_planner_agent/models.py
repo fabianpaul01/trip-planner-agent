@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Fabian Paul. All rights reserved.
+
 """Pydantic data models and shared exceptions.
 
 Defines the core data structures used to represent travelers, vacation

@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Fabian Paul. All rights reserved.
+
 """System-prompt templates and builders for the agents.
 
 This module defines the system prompts used by the itinerary generation,

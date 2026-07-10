@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Fabian Paul. All rights reserved.
+
 """Default vacation input data and loader.
 
 In a real-time system this dict would come from an

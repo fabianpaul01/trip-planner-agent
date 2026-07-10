@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Fabian Paul. All rights reserved.
+
 """Environment configuration and OpenAI client construction.
 
 Nothing here reaches out to the network at
