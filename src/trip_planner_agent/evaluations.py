@@ -1,3 +1,5 @@
+# Copyright (c) 2026 Fabian Paul. All rights reserved.
+
 """Evaluation functions ("evals") for scoring a travel plan.
 
 At a high level, this file is an evaluation framework for a travel planner.
