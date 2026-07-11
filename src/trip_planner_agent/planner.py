@@ -1,6 +1,12 @@
 """End-to-end planning workflow.
+The central idea of this file is:
 
-Ported from the orchestration cells (15, 35, 36). This is the "glue" that wires
+It acts as the orchestration layer (workflow coordinator) for the entire travel planning system.
+
+It does not contain the logic for generating itineraries, evaluating plans, fetching weather, 
+or revising plans. Instead, it coordinates all of these independent components into one end-to-end workflow.
+
+This is the "glue" that wires
 the schedule → prompts → agents → evals together. It contains no business rules
 of its own; each responsibility lives in its own module.
 """
